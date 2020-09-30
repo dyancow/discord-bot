@@ -16,8 +16,12 @@ client.once('ready', () => {
 // keeps listening for keyword then sends a message out
 client.on('message', message => {
 	if (message.content === ':>') {
-        // send's back cute nice message
+        // sends back cute nice message
         message.channel.send("You're cute <a:ALoveChancake:755145813558034633>");
+    }
+    if (message.content === ':<'){
+        // sends back concerned message
+        message.channel.send("Oh no, what's wrong :<< <a:ACryChancake:755125270247112784>")
     }
 });
 // discord token
