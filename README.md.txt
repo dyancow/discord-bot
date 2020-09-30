@@ -1,1 +1,4 @@
-:> Woop woop is it working
+Discord Bot Information:
+
+Tutorial link:
+https://discordjs.guide/#before-you-begin
